@@ -67,6 +67,10 @@ var RunnerEnvVars = []corev1.EnvVar{
 		Value: os.Getenv("STORAGE_LOCATION"),
 	},
 	{
+		Name:  "RUNNER_REGION",
+		Value: os.Getenv("STORAGE_REGION"),
+	},
+	{
 		Name:  "RUNNER_TOKEN",
 		Value: os.Getenv("STORAGE_TOKEN"),
 	},
