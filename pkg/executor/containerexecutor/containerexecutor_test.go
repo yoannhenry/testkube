@@ -103,6 +103,7 @@ func TestNewExecutorJobSpecWithArgs(t *testing.T) {
 		{Name: "RUNNER_ACCESSKEYID", Value: ""},
 		{Name: "RUNNER_SECRETACCESSKEY", Value: ""},
 		{Name: "RUNNER_LOCATION", Value: ""},
+		{Name: "RUNNER_REGION", Value: ""},
 		{Name: "RUNNER_TOKEN", Value: ""},
 		{Name: "RUNNER_BUCKET", Value: ""},
 		{Name: "RUNNER_SSL", Value: ""},
